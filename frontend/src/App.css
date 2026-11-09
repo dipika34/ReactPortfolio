@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.navBar ul{
+  display: flex;
+  justify-content:space-evenly;
+}
+.navBar ul li{
+  list-style-type:none;
+}
+.navBar ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+  transition: 0.4s;
+}
+.navBar ul li a:hover{
+  border-bottom: 2px solid white;
+  color: darkblue;
+}
+img{
+  width:200px;
+  height: 200px;
+  border-radius: 100px;
+  margin-top:60px;
+}
+.details p{
+  margin: -150px 300px;
+  font-size:16px;
+  color: white;
+  font-weight: bold;
+}
+body{
+  background-color:burlywood;
+}
+.buttons{
+  margin:250px -2px;
+}
+.buttons .btn{
+  margin: 10px;
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 8px,8px,8px,8px rgb(2, 2, 2);
+}
+.buttons .btn:hover{
+  background-color:blue;
+  color: white;
+}
+.icons{
+  margin: -4px 15px;
+  
+}
